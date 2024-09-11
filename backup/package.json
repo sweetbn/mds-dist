@@ -1,0 +1,17 @@
+{
+  "name": "mds-dist",
+  "version": "1.0.4",
+  "description": "A MinIO Components Library",
+  "homepage": ".",
+  "license": "AGPL-3.0-or-later",
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "scripts": {
+    "build": "rm -rf dist && rollup -c",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build -o docs",
+    "test": "jest"
+  },
+  "types": "mds.d.ts",
+  "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
+}
